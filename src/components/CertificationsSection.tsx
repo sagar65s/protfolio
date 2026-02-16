@@ -1,23 +1,63 @@
 import { Award, Briefcase, ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
 import ScrollReveal from "./ScrollReveal";
-import certPython from "@/assets/cert-python.jpg";
-import certJava from "@/assets/cert-java.jpg";
-import certC from "@/assets/cert-c.jpg";
+import IntroPython from "@/assets/introduction to python sololearns.png";
+import DataDriven from "@/assets/In To Data Driven World.png";
+import GenAIModel from "@/assets/GENERATIVE AI CERTIFICATE   NEXTWAY.png";
+import PythonDeveloper from "@/assets/python developer sololearns.png";
+import JavaBootcamp from "@/assets/java bootcamp letsupgrade.png";
+import IntroJava from "@/assets/java sololearns.jpg";
+import SoftSkill from "@/assets/SOFT SKILL  tcs.png";
+import SocialMediaAttack from "@/assets/Social media attack novitech.png";
+import AINovitech from "@/assets/AI 30days NoviTech.png";
+import WebDevelopmentjustrise from "@/assets/web development justrise technology.png";
+import FSDArttifai from "@/assets/Full Stack Developmentartifitech.png";
+import FSDNovitech from "@/assets/full stack development Novitech.png";
+import PythonInfosys from "@/assets/python infosys.png";
+import Softwareintern from "@/assets/software intern hackerrank.png";
+import SQLBootcamp from "@/assets/SQL bootcamp letupgrade.png";
+import DataClean from "@/assets/dataclean sql letsupgrade.png";
+import AIBuisness from "@/assets/ai for business hp life.png";
+import DataScience from "@/assets/data science and analytics hp life.png";
+import FigJam from "@/assets/Sagar Fig Jam certificate HCL GUVI.png";
+import PythonHackerRank from "@/assets/python hackerrank.png";
+import PythonSimpleLearn from "@/assets/python simplelearn.png";
+import webInternship from "@/assets/Web Development Internship HexSoftware.png";
+
+
 import { useState } from "react";
 
 // create a new certificate in the front 
 
 const certifications = [
-  { title: "Python Developer Certificate", issuer: "SoloLearn & Coursera", icon: Award, image: certPython },
-  { title: "Java Programming", issuer: "SoloLearn", icon: Award, image: certJava },
-  { title: "C Programming", issuer: "SoloLearn", icon: Award, image: certC },
-  { title: "Python Developer Certificate", issuer: "SoloLearn & Coursera", icon: Award, image: certPython },
-  { title: "Java Programming", issuer: "SoloLearn", icon: Award, image: certJava },
-  { title: "C Programming", issuer: "SoloLearn", icon: Award, image: certC },
-  { title: "Python Developer Certificate", issuer: "SoloLearn & Coursera", icon: Award, image: certPython },
-  { title: "Java Programming", issuer: "SoloLearn", icon: Award, image: certJava },
-  { title: "C Programming", issuer: "SoloLearn", icon: Award, image: certC },
+
+  //*******2026 certifications */
+
+  { title: "Web Development", issuer: "HexSoftware", date: "15 Jan to 15 Feb, 2026 ", icon: Award, image: webInternship },
+  { title: "Programming with Python 3.X", issuer: "SimpleLearn", date: "15 February, 2026", icon: Award, image: PythonSimpleLearn },
+  { title: "Python(Basic)", issuer: "HackerRank", date: "15 February, 2026", icon: Award, image: PythonHackerRank },
+  { title: "FigJam Essentials for Everyday Use", issuer: "GUVI | HCL", date: "14 February, 2026", icon: Award, image: FigJam },
+  { title: "Data Science and Analytics", issuer: "HP LIFE", date: "10 February, 2026", icon: Award, image: DataScience },
+  { title: "AI for Business Professionals", issuer: "HP LIFE", date: "04 February, 2026 ", icon: Award, image: AIBuisness },
+  { title: "Data Cleaning with SQL String Function", issuer: "Lets Upgrade", date: "30 January, 2026 ", icon: Award, image: DataClean },
+  { title: "SQL Bootcamp", issuer: "Lets Upgrade", date: "27 to 29 January, 2026 ", icon: Award, image: SQLBootcamp },
+  { title: "Software Engineer Intern", issuer: "HackerRank", date: "25 January, 2026 ", icon: Award, image: Softwareintern },
+  { title: "Introduction to Python", issuer: "Infosys", date: "17 January, 2026 ", icon: Award, image: PythonInfosys },
+  //*******2025 certifications */
+
+  { title: "Full Stack Development", issuer: "NoviTech", date: "07 Aug to 10 Sep, 2025 ", icon: Award, image: FSDNovitech },
+  { title: "Full Stack Development", issuer: "Arttifai Tech", date: "18 Aug to 25 Aug, 2025 ", icon: Award, image: FSDArttifai },
+  { title: "Web Frontend Development", issuer: "Justrise Technology", date: "07 May to 30 Jun, 2025 ", icon: Award, image: WebDevelopmentjustrise },
+  { title: "Artificial Intelligence", issuer: "NoviTech", date: "07 May to 12 Jun, 2025 ", icon: Award, image: AINovitech },
+  { title: "Social Media Under Atteck! Are You Safe?", issuer: "NoviTech", date: "05 April, 2025 ", icon: Award, image: SocialMediaAttack },
+  { title: "TCS iON Career Edge - Young Profesional ", issuer: "TCS iON", date: "31 Mar to 14 Apr, 2025 ", icon: Award, image: SoftSkill },
+  { title: "Introduction to Java", issuer: "SoloLearn", date: "01 March, 2025", icon: Award, image: IntroJava },
+  { title: "Java Bootcamp", issuer: "Lets Upgrade", date: "14 to 16 January, 2025 ", icon: Award, image: JavaBootcamp },
+  { title: "Python Developer", issuer: "SoloLearn", date: "30 January, 2025", icon: Award, image: PythonDeveloper },
+  //*******2024 certifications */
+  { title: "AI for Students: Build Your Own Generative AI Model", issuer: "NxtWave", date: "24 November, 2024 ", icon: Award, image: GenAIModel },
+  { title: "In To Data Driven World", issuer: "NoviTech", date: "06 October, 2024 ", icon: Award, image: DataDriven },
+  { title: "Introduction to Python", issuer: "SoloLearn", date: "18 September, 2023 ", icon: Award, image: IntroPython },
 ];
 
 const CertificationsSection = () => {
@@ -103,6 +143,7 @@ const CertificationsSection = () => {
                     </motion.div>
                     <h4 className="font-semibold text-sm">{cert.title}</h4>
                     <p className="text-xs text-muted-foreground mt-1">{cert.issuer}</p>
+                    <p className="text-xs font-extrabold mt-1">{cert.date}</p>
                   </div>
 
                   {/* Hover glow overlay */}
