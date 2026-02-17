@@ -9,14 +9,14 @@ const projects = [
     title: "AI Resume Builder",
     description: "An AI-powered web application that generates professional resumes based on user input.",
     tech: ["HTML","React","twindland CSS", "Node.js", "AI API","postgreSQL"],
-    links: { live: "#", github: "#" },
+    links: { live: "https://resumecreation.onrender.com/", github: "https://github.com/sagar65s" },
     image: projectResume,
   },
   {
     title: "Protfolio Website",
     description: "Responsive personal portfolio with modern UI and smooth animations to showcase projects and skills.",
     tech: ["HTML","React","twindland CSS","javaScript"],
-    links: { live: "#", github: "#" },
+    links: { live: "https://sagarprotfolio.vercel.app/", github: "https://github.com/sagar65s" },
     image: projectWaste,
   },
   // {
