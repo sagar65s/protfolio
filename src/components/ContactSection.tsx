@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { Send, CheckCircle, Mail, Github, Linkedin } from "lucide-react";
+import { Send, CheckCircle, Mail, Github, Linkedin, MapPin } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import ScrollReveal from "./ScrollReveal";
+
 
 const ContactSection = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -74,6 +75,10 @@ const ContactSection = () => {
                   <Linkedin size={18} className="text-primary" />
                   linkedin.com/in/sagar65s
                 </a>
+                <div className="flex items-center gap-3 text-sm text-muted-foreground">
+                  <MapPin size={18} className="text-primary" />
+                  Nagore, Nagapattinam, Tamil Nadu, India
+                </div>
               </div>
             </div>
           </ScrollReveal>

@@ -149,16 +149,18 @@ import { useState, useEffect, useCallback } from "react";
 import { ChevronLeft, ChevronRight, Calendar } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import ScrollReveal from "./ScrollReveal";
-import webInternship from "@/assets/Web Development Internship HexSoftware.png";
-import WebDesign from "@/assets/SIMATS web design.png";
+import AWSWorkshopKongu from "@/assets/aws kongu workshop.png";
 import DevOps from "@/assets/devops.png";
-// import webInternship from "@/assets/Web Development Internship HexSoftware.png";
-// import webInternship from "@/assets/Web Development Internship HexSoftware.png";
+import SINCETQUIZ from "@/assets/Quiz competion SINCET.png";
+import ProjectExpo from "@/assets/project expo.png";
+import WebDesign from "@/assets/SIMATS web design.png";
+import AVCSymposium from "@/assets/AVC symposium.png";
+import QuizIAS from "@/assets/Qiuz sankar ias academy.png";
 
 
 const achievements = [
   {
-    image: webInternship, // image path
+    image: AWSWorkshopKongu, // image path
     title: "AWS - CLOUD SERVICES",
     description:
       "Attended a one-day AWS services workshop at Kongu Engineering College, gaining hands-on experience with core AWS services and cloud computing fundamentals.",
@@ -172,14 +174,14 @@ const achievements = [
     date: "3 February, 2026",
   },
   {
-    image: webInternship,
+    image: SINCETQUIZ,
     title: "TECH WHIZ CHALLENGE 2025 - QUIZ COMPETITION",
     description:
       "Won 1st Prize in TECH WHIZ CHALLENGE 2025 – Quiz Competition at Sir Issac Newton College of Engineering and Technology, showcasing excellence in technical aptitude and problem-solving",
     date: "17 November, 2025",
   },
   {
-    image: webInternship,
+    image: ProjectExpo,
     title: "RESEARCH & DEVELOPMENT CELL AND ISTE PROJECT EXPO 2025",
     description:
       "Participated in a project expo conducted at Sir Issac Newton College of Engineering and Technology, showcasing academic and technical projects.",
@@ -193,14 +195,14 @@ const achievements = [
     date: "14 August, 2025",
   },
   {
-    image: webInternship,
+    image: AVCSymposium,
     title: "A NATIONAL LEVEL TECHNICAL SYMPOSIUM 2025",
     description:
       "Participated in debugging and quiz competitions conducted at AVC College of Engineering, strengthening problem-solving and analytical skills.",
     date: "14 March, 2025",
   },
   {
-    image: webInternship,
+    image: QuizIAS,
     title: "INTER COLLEGE QUIZ COMPETITION 2025",
     description:
       "Actively participated in the Inter-College Quiz Competition 2025 organized by Sankar IAS Academy, demonstrating strong analytical and general knowledge skills.",
