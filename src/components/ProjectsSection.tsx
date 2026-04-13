@@ -3,29 +3,30 @@ import { ExternalLink, Github } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
 import projectResume from "@/assets/resume-project.png";
 import projectWaste from "@/assets/protfolio-photo.png";
+import projectIntern from "@/assets/Intern-Track.png";
 
 const projects = [
   {
     title: "AI Resume Builder",
     description: "An AI-powered web application that generates professional resumes based on user input.",
-    tech: ["HTML","React","twindland CSS", "Node.js", "AI API","postgreSQL"],
+    tech: ["HTML","React.js","twindland CSS", "Node.js", "AI API","postgreSQL"],
     links: { live: "https://resumecreation.onrender.com/", github: "https://github.com/sagar65s" },
     image: projectResume,
   },
   {
     title: "Protfolio Website",
     description: "Responsive personal portfolio with modern UI and smooth animations to showcase projects and skills.",
-    tech: ["HTML","React","twindland CSS","javaScript"],
+    tech: ["HTML","React.js","twindland CSS","javaScript"],
     links: { live: "https://sagarprotfolio.vercel.app/", github: "https://github.com/sagar65s" },
     image: projectWaste,
   },
-  // {
-  //   title: "Smart Attendance System",
-  //   description: "Face recognition-based attendance tracking system for classrooms using deep learning.",
-  //   tech: ["Python", "OpenCV", "TensorFlow"],
-  //   links: { github: "#" },
-  //   image: projectResume,
-  // },
+  {
+    title: "InternTrack",
+    description: "A web app to manage and track internship applications, helping students organize opportunities and monitor progress easily.",
+    tech: ["HTML", "CSS", "React", "javaScript","Node.js", "MongoDB"],
+    links: { live: "https://interntrax.onrender.com/", github: "https://github.com/sagar65s" },
+    image: projectIntern,
+  },
   // {
   //   title: "E-Commerce Platform",
   //   description: "Full-stack online shopping platform with cart, payments, and admin dashboard.",

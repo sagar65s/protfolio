@@ -36,12 +36,12 @@ const CustomCursor = () => {
   return (
     <>
       <motion.div
-        className="fixed top-0 left-0 w-3 h-3 rounded-full bg-primary pointer-events-none z-[99] mix-blend-difference"
+        //className="fixed top-0 left-0 w-3 h-3 rounded-full bg-primary pointer-events-none z-[99] mix-blend-difference"
         animate={{ x: pos.x - 6, y: pos.y - 6 }}
         transition={{ type: "spring", stiffness: 500, damping: 28 }}
       />
       <motion.div
-        className="fixed top-0 left-0 rounded-full border-2 border-primary pointer-events-none z-[99] mix-blend-difference"
+        className="fixed top-0 left-0 rounded-full border-0 border-primary pointer-events-none z-[99] mix-blend-difference"
         animate={{
           x: pos.x - (hovering ? 24 : 16),
           y: pos.y - (hovering ? 24 : 16),
@@ -56,3 +56,5 @@ const CustomCursor = () => {
 };
 
 export default CustomCursor;
+
+

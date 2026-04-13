@@ -12,6 +12,8 @@ const skillCategories = [
       { name: "Python", level: 85 },
       { name: "Java", level: 40 },
       { name: "C", level: 90 },
+      { name: "C++", level: 40 },
+
     ],
   },
   {
@@ -23,6 +25,7 @@ const skillCategories = [
       { name: "CSS", level: 95 },
       { name: "JavaScript", level: 50 },
       { name: "React", level: 45 },
+      { name: "MongoDB", level: 80 },
     ],
   },
   {
@@ -30,7 +33,7 @@ const skillCategories = [
     title: "Tools & Platforms",
     color: "primary",
     skills: [
-      { name: "Git & GitHub", level: 80 },
+      { name: "Git & GitHub", level: 90 },
       { name: "VS Code", level: 95 },
       { name: "Render", level: 80 },
     ],
@@ -42,7 +45,7 @@ const skillCategories = [
     skills: [
       { name: "Problem Solving", level: 95 },
       { name: "Team Collaboration", level: 90 },
-      { name: "UI/UX Basics", level: 50 },
+      { name: "UI/UX Basics", level: 60 },
     ],
   },
 ];

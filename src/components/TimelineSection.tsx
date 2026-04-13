@@ -35,12 +35,18 @@ const milestones = [
     description: "Web Development Intern, contributed to building responsive enterprise web applications.",
     period: "Jan 15 – Feb 15, 2026",
   },
-  //   {
-  //   icon: Building,
-  //   title: "Internship — Infosys",
-  //   description: "Data Analytics Intern, worked on data visualization dashboards and predictive models.",
-  //   period: "Internship 3",
-  // },
+  {
+    icon: Rocket,
+    title: "AI Resume Builder",
+    description: "Building AI-powered projects and continuously learning modern web technologies.",
+    period: "Dec 2025 – Feb 2026",
+  },
+    {
+    icon: Rocket,
+    title: "InternTrack",
+    description: "A web app to track and manage internship applications.",
+    period: "Mar 2026 – Apr 2026",
+  },
   // {
   //   icon: Briefcase,
   //   title: "Internship — Cognizant",
@@ -53,12 +59,6 @@ const milestones = [
   //   description: "Cloud & AI Intern, built cloud-native solutions and integrated AI/ML pipelines.",
   //   period: "Internship 5",
   // },
-  {
-    icon: Rocket,
-    title: "AI Resume Builder",
-    description: "Building AI-powered projects and continuously learning modern web technologies.",
-    period: "Dec 2025 – Feb 2026",
-  },
 ];
 
 const TimelineSection = () => {
