@@ -4,6 +4,8 @@ import ScrollReveal from "./ScrollReveal";
 import projectResume from "@/assets/resume-project.png";
 import projectWaste from "@/assets/protfolio-photo.png";
 import projectIntern from "@/assets/Intern-Track.png";
+import projectNeuro from "@/assets/neuro-chatbot.png";
+import projectBingo from "@/assets/game-bingo.png";
 
 const projects = [
   {
@@ -23,24 +25,24 @@ const projects = [
   {
     title: "InternTrack",
     description: "A web app to manage and track internship applications, helping students organize opportunities and monitor progress easily.",
-    tech: ["HTML", "CSS", "React", "javaScript","Node.js", "MongoDB"],
+    tech: ["HTML", "CSS", "React","RBAC", "javaScript","Node.js", "MongoDB"],
     links: { live: "https://interntrax.onrender.com/", github: "https://github.com/sagar65s" },
     image: projectIntern,
   },
-  // {
-  //   title: "E-Commerce Platform",
-  //   description: "Full-stack online shopping platform with cart, payments, and admin dashboard.",
-  //   tech: ["React", "Node.js", "MongoDB"],
-  //   links: { live: "#", github: "#" },
-  //   image: projectWaste,
-  // },
-  // {
-  //   title: "Weather Dashboard",
-  //   description: "Real-time weather forecasting app with interactive maps and location-based alerts.",
-  //   tech: ["React", "OpenWeather API", "Chart.js"],
-  //   links: { live: "#", github: "#" },
-  //   image: projectResume,
-  // },
+  {
+    title: "NeuroChatbot",
+    description: "A free, multi-model AI chatbot with smart fallback, voice messaging, multilingual support, and real-time updates.",
+    tech: ["React", "Python", "Firebase","Gemini API","Openrouter API","Groq API","Tavily API"],
+    links: { live: "https://neurochatbot.onrender.com/", github: "https://github.com/sagar65s/neurochatbot" },
+    image: projectNeuro,
+  },
+  {
+    title: "BINGO Game",
+    description: "An interactive and fun web-based game with a simple, responsive, and engaging user experience.",
+    tech: ["HTML", "CSS", "React", "javaScript","Node.js", "MongoDB"],
+    links: { live: "https://gamebingo.onrender.com/", github: "https://github.com/sagar65s/bingo" },
+    image: projectBingo,
+  },
   // {
   //   title: "Chat Application",
   //   description: "Real-time messaging app with group chats, file sharing, and end-to-end encryption.",

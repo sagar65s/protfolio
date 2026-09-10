@@ -1,7 +1,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import ScrollReveal from "./ScrollReveal";
-import { Code2, Globe, Wrench, Brain } from "lucide-react";
+import { Code2, Globe, Wrench, Brain ,Sparkles } from "lucide-react";
 
 const skillCategories = [
   {
@@ -30,12 +30,13 @@ const skillCategories = [
   },
   {
     icon: Wrench,
-    title: "Tools & Platforms",
+    title: "Platforms",
     color: "primary",
     skills: [
       { name: "Git & GitHub", level: 90 },
       { name: "VS Code", level: 95 },
       { name: "Render", level: 80 },
+      { name: "Linux", level: 70 },
     ],
   },
   {
@@ -45,7 +46,19 @@ const skillCategories = [
     skills: [
       { name: "Problem Solving", level: 95 },
       { name: "Team Collaboration", level: 90 },
-      { name: "UI/UX Basics", level: 60 },
+      { name: "UI/UX ", level: 70 },
+    ],
+  },
+  {
+    icon: Sparkles,
+    title: "AI Tools",
+    color: "primary",
+    skills: [
+      { name: "ChatGPT", level: 98 },
+      { name: "Claude", level: 90 },
+      { name: "Gemini", level: 90 },
+      { name: "Google Ai Studio", level: 80 },
+      { name: "Copilot", level: 80 },
     ],
   },
 ];
