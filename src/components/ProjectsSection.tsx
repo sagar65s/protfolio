@@ -4,7 +4,7 @@ import ScrollReveal from "./ScrollReveal";
 import projectResume from "@/assets/resume-project.png";
 import projectWaste from "@/assets/protfolio-photo.png";
 import projectIntern from "@/assets/Intern-Track.png";
-import projectNeuro from "@/assets/neuro-chatbot.png";
+import projectNeuro from "@/assets/neurochatbot-image.png";
 import projectBingo from "@/assets/gamebingo-image.png";
 
 const projects = [
